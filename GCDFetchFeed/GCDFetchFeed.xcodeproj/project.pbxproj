@@ -536,16 +536,16 @@
 		3EE3113A1C4E1F0800103FA3 /* GCDFetchFeed */ = {
 			isa = PBXGroup;
 			children = (
-				0A35AD411F45B2B300780172 /* Lib */,
-				3E58A8611C50B86C0026A610 /* Vendors */,
-				3E58A8551C507C490026A610 /* ViewComponent */,
 				3EE3113E1C4E1F0800103FA3 /* AppDelegate.h */,
 				3EE3113F1C4E1F0800103FA3 /* AppDelegate.m */,
-				3EE311711C4E301700103FA3 /* Feeds */,
-				3EE311471C4E1F0800103FA3 /* Assets.xcassets */,
-				3EE311491C4E1F0800103FA3 /* LaunchScreen.storyboard */,
 				3EE3114C1C4E1F0800103FA3 /* Info.plist */,
+				3EE311471C4E1F0800103FA3 /* Assets.xcassets */,
+				3EE311711C4E301700103FA3 /* Feeds */,
+				3EE311491C4E1F0800103FA3 /* LaunchScreen.storyboard */,
+				0A35AD411F45B2B300780172 /* Lib */,
 				3EE3113B1C4E1F0800103FA3 /* Supporting Files */,
+				3E58A8611C50B86C0026A610 /* Vendors */,
+				3E58A8551C507C490026A610 /* ViewComponent */,
 			);
 			path = GCDFetchFeed;
 			sourceTree = "<group>";
@@ -682,7 +682,7 @@
 				TargetAttributes = {
 					3EE311371C4E1F0800103FA3 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 5AJEH63V73;
+						DevelopmentTeam = RF2LPG6C4X;
 					};
 					3EE311501C4E1F0800103FA3 = {
 						CreatedOnToolsVersion = 7.2;
@@ -699,6 +699,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -748,7 +749,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-GCDFetchFeed/Pods-GCDFetchFeed-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-GCDFetchFeed/Pods-GCDFetchFeed-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/DTCoreText/DTCoreText.framework",
 				"${BUILT_PRODUCTS_DIR}/DTFoundation/DTFoundation.framework",
@@ -777,7 +778,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GCDFetchFeed/Pods-GCDFetchFeed-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GCDFetchFeed/Pods-GCDFetchFeed-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F53889DF393E4DEE898D14BE /* [CP] Check Pods Manifest.lock */ = {
@@ -989,7 +990,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 5AJEH63V73;
+				DEVELOPMENT_TEAM = RF2LPG6C4X;
 				INFOPLIST_FILE = GCDFetchFeed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.starming.GCDFetchFeed;
@@ -1003,7 +1004,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 5AJEH63V73;
+				DEVELOPMENT_TEAM = RF2LPG6C4X;
 				INFOPLIST_FILE = GCDFetchFeed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.starming.GCDFetchFeed;
